@@ -126,7 +126,6 @@ export default class Cart extends Component {
                 );
               })
             ) : (
-              // If there is a delay in data, let's let the user know it's loading
               <tr />
             )}
           </tbody>
